@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Employee | Your Company</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body class="container">
+    <div class="container create-employee">
+      <div class="wrapper">
+        <div class="title"><span>Create New Employee</span></div>
+        <form id="employeeForm">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input id="username" type="text" placeholder="User Name" required />
+        </div>
+        <div class="row">
+            <i class="fas fa-user"></i>
+            <input id="firstName" type="text" placeholder="First Name" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input id="lastName" type="text" placeholder="Last Name" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-phone"></i>
+            <input id="phone" type="tel" placeholder="Phone" required />
+          </div>
+          <div class="row">
+            <i class="fas fa-envelope"></i>
+            <input id="Email" type="tel" placeholder="Email" required />
+          </div>
+            <div id="pass1" class="row">
+              <i class="fas fa-key"></i>
+              <input id="password" type="tel" placeholder="password" />
+            </div>
+            <div id="pass2" class="row">
+              <i class="fas fa-key"></i>
+              <input id="confirm-password" type="tel" placeholder="confirm-password" />
+            </div>
+            <div id="error" style="color: red;"></div>
+          <div class="row button">
+            <input id="button1" type="submit" value="Create Employee" />
+            <input id="update" type="submit" value="Update Employee" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="createemployee.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
